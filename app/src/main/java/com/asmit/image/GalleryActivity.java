@@ -57,7 +57,7 @@ public class GalleryActivity extends AppCompatActivity {
         }
         Uri uri = data.getData();
         imagePath = getRealPathFromUri(uri);
-        ImageView.setImageURI(uri);
+        imgAss.setImageURI(uri);
 
     }
 
